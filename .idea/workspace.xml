@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30ac23bf-54ce-489a-9ecd-7094f9a432f2" name="Changes" comment="" />
+    <list default="true" id="30ac23bf-54ce-489a-9ecd-7094f9a432f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/model/EmailAuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/repository/EmailAuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/model/AuthCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/AuthCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/NewUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/NewUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +66,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,7 +81,7 @@
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hellokoding.springboot.view.Application" />
-      <module name="springboot-jsp-helloworld" />
+      <module name="meatOcean" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hellokoding.springboot.view.*" />
@@ -90,5 +108,16 @@
       <updated>1650459322354</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

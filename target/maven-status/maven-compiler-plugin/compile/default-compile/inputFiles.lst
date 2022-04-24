@@ -1,6 +1,7 @@
 D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\model\NewUser.java
 D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\Application.java
-D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\model\AuthCode.java
+D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\repository\EmailAuthRepository.java
+D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\model\EmailAuthUser.java
 D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\repository\UserRepository.java
 D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\model\User.java
 D:\Personal\meatOcean\src\main\java\com\hellokoding\springboot\view\HelloController.java

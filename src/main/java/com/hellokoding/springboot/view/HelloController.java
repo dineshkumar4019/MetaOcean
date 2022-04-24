@@ -1,6 +1,5 @@
 package com.hellokoding.springboot.view;
 
-import com.hellokoding.springboot.view.model.AuthCode;
 import com.hellokoding.springboot.view.model.NewUser;
 import com.hellokoding.springboot.view.model.User;
 import com.hellokoding.springboot.view.service.UserService;
@@ -37,8 +36,13 @@ public class HelloController {
     }
 
     @PostMapping(value = "/auth", consumes = "application/octet-stream")
-    public String authGoogleUser(HttpServletRequest request) throws IOException {
-        System.out.println(request);
-        return userService.authGoogleUser(request);
+    public String authGoogleUser(@RequestBody String authCode
+                                 , HttpServletRequest request ) throws IOException {
+
+        System.out.println(authCode);
+        if (request.getHeader("X-Requested-With") == null) {
+            return null;
+        }
+        return userService.authGoogleUser(authCode);
     }
 }

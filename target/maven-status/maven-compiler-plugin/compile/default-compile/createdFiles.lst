@@ -1,0 +1,8 @@
+com\hellokoding\springboot\view\Application.class
+com\hellokoding\springboot\view\HelloController.class
+com\hellokoding\springboot\view\model\User.class
+com\hellokoding\springboot\view\repository\UserRepository.class
+com\hellokoding\springboot\view\repository\EmailAuthRepository.class
+com\hellokoding\springboot\view\model\NewUser.class
+com\hellokoding\springboot\view\service\UserService.class
+com\hellokoding\springboot\view\model\EmailAuthUser.class
