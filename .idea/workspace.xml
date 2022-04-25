@@ -5,22 +5,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30ac23bf-54ce-489a-9ecd-7094f9a432f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/model/EmailAuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/repository/EmailAuthRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/model/AuthCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hellokoding/springboot/view/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/metaScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/metaScripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/AuthCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/EmailAuthUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/EmailAuthUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/NewUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/NewUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/EmailAuthRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/EmailAuthRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hellokoding/springboot/view/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/googleUserContent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style-azure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/vendor.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Ikon-Crypto.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Ikon-Crypto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Ikon-Crypto.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Poppins-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Quicksand-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dot-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dot-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dot-c-azalea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/dot-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/globe-particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hexagon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon-wallet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/light-ix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-a-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-a-md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-a-md.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-c-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-c-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-c-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-d2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-f-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-f-footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-line-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-line-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-line-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/mask-line-d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-a-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-a-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-line-a-fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-line-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-line-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/polygon-line-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-a-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-b-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-c-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-d-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-e-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-f-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-g-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-h-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-i-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-s-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-x-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-x-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z6-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/shape-z7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-light-a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-light-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-zinnia-a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/ui-shape-zinnia-b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/vr-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/metaScripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/scripts.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
