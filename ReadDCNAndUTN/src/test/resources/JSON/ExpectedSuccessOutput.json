@@ -1,0 +1,19 @@
+{
+  "handshake_data": {
+    "workflow_id": "1",
+    "task_token": "token"
+  },
+  "payload": {
+    "status": "Success",
+    "error": [],
+    "patient_identifier": {
+      "MR_number": "F6000053349901",
+      "SOC_date": "01/07/2022",
+      "episode": {
+        "period_begin": "01/07/2022",
+        "period_end": "02/05/2022"
+      }
+    },
+    "update_PCR_status": {}
+  }
+}
