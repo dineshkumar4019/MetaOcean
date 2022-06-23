@@ -1,0 +1,20 @@
+{
+    "URI": "https://orchestrator-green.services.e5.ai",
+    "Request1" : "/api/Account/Authenticate",
+    "Request2" : "/odata/Queues/UiPathODataSvc.AddQueueItem",
+    "username" : "dineshkumar.dinakaran@e5.ai", 
+    "password" : "Dinesh@4019",
+    "host" : "4.tcp.ngrok.io:17390",
+    "server" : "c7.kafka.us-west-2.amazonaws.com:9092,b-2.duploservices-global-e.oeibti.c7.kafka.us-west-2.amazonaws.com:9092",
+    "key" : "org.apache.kafka.common.serialization.StringDeserializer",
+    "topic" : "new_test_team_rpa",
+    "pass" : "200",
+    "success" : "201",
+    "failed" : "400",
+    "inputs" :{
+                  "noCurrentCoverage " : {"itemData":{"Name":"Download_task_attachments_dinesh","Priority":"Normal","SpecificContent":{"handshake_data":"{'workflow_id':'1','task_token':'token'}","task":"{'functional_block':'download_task_attachment','payload':{'download_task_attachment':[{'patient_identifier':{'MR_number':'I3000082650801','SOC_date':'01/07/2022','episode':{'period_begin':'01/07/2022','period_end':'02/05/2022'}},'PCR_console_filter':{'submission_type':'','search_by':'MR No.','search_for':'I3000082650801','branches':[],'teams':[],'F2F_status':'','POC_status':'','claim_status':'','current_coverage_determination':[],'payor_sources':[],'period':{'begin_date':{'from':'01/07/2022','to':'02/07/2022'},'end_date':{'from':'03/22/2022','to':'04/20/2022'}},'current_non_affirmationreasons':'','submission_status':'CURRENT','DCN':'','UTN':''}}]}}"}}},
+                  "validInput2" : {"itemData":{"Name":"Download_task_attachments_dinesh","Priority":"Normal","SpecificContent":{"handshake_data":"{'workflow_id':'1','task_token':'token'}","task":"{'functional_block':'download_task_attachment','payload':{'download_task_attachment':[{'patient_identifier':{'MR_number':'I3000082650801','SOC_date':'01/07/2022','episode':{'period_begin':'01/07/2022','period_end':'02/05/2022'}},'PCR_console_filter':{'submission_type':'','search_by':'MR No.','search_for':'I3000082650801','branches':[],'teams':[],'F2F_status':'','POC_status':'','claim_status':'','current_coverage_determination':['PCR READY TO INITIATE (HOLD CLAIM)'],'payor_sources':[],'period':{'begin_date':{'from':'01/07/2022','to':'02/07/2022'},'end_date':{'from':'03/22/2022','to':'05/20/2022'}},'current_non_affirmationreasons':'','submission_status':'CURRENT','DCN':'','UTN':''}}]}}"}}},
+                  "validInput" : {"itemData":{"Name":"Download_task_attachments_dinesh","Priority":"Normal","SpecificContent":{"handshake_data":"{'workflow_id':'1','task_token':'token'}","task":"{'functional_block':'download_task_attachment','payload':{'download_task_attachment':[{'patient_identifier':{'MR_number':'I3000082650801','SOC_date':'01/07/2022','episode':{'period_begin':'01/07/2022','period_end':'02/05/2022'}},'PCR_console_filter':{'submission_type':'','search_by':'MR No.','search_for':'I3000082650801','branches':[],'teams':[],'F2F_status':'','POC_status':'','claim_status':'','current_coverage_determination':['PCR READY TO INITIATE (HOLD CLAIM)'],'payor_sources':[],'period':{'begin_date':{'from':'01/07/2022','to':'02/07/2022'},'end_date':{'from':'03/22/2022','to':'05/20/2022'}},'current_non_affirmationreasons':'','submission_status':'CURRENT','DCN':'','UTN':''}}]}}"}}}
+              },
+     "E5.FB.HCHB.E0005" : "No unique record found for the given filter"
+}

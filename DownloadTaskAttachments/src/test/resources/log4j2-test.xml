@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+    <Appenders>
+        <File name="File" fileName="logs/FBLogs.log">
+            <PatternLayout pattern="%date [%thread][%level][%c]:%message%n "/>
+        </File>
+    </Appenders>
+    
+    <Loggers>
+        <Logger name="src.test.java.logger.FunctionalBlockLogger" level="info">
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <Root level="info">
+          <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>

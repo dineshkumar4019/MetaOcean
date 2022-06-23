@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+
+    <Appenders>
+    <RollingFile
+        name="rollingFile"
+        fileName="logs/FBLogs.log"
+        filePattern="logs/FBLogs.%d{dd-MMM}.log.gz"
+        ignoreExceptions="false">
+            <PatternLayout pattern="%d %c -[%-5p]- %m%n"/>
+        <Policies>
+            <TimeBasedTriggeringPolicy interval="1"/>
+        </Policies>
+        <DefaultRolloverStrategy max="5" /> 
+    </RollingFile>
+    </Appenders>
+    
+    <Loggers>
+        <Logger name="src.test.java.logger.FunctionalBlockLogger" level="info">
+            <AppenderRef ref="rollingFile"/>
+        </Logger>
+        
+        <Root level="info">
+          <AppenderRef ref="rollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
